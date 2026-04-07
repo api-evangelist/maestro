@@ -1,6 +1,7 @@
 aid: maestro
 name: Maestro
-description: 'All-In-One Property Management Software SolutionBrowser '
+description: >-
+  All-In-One Property Management Software SolutionBrowser.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -15,7 +16,8 @@ specificationVersion: '0.19'
 apis:
   - aid: maestro:maestro
     name: Maestro
-    description: 'All-In-One Property Management Software SolutionBrowser '
+    description: >-
+      All-In-One Property Management Software SolutionBrowser.
     humanURL: https://maestropms.com
     tags:
       - API
