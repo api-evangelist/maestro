@@ -21,6 +21,9 @@ tags:
 created: '2025-02-21'
 modified: '2026-04-28'
 specificationVersion: '0.19'
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/maestro-pms
 apis:
   - aid: maestro:maestro
     name: Maestro PMS
