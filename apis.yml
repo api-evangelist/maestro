@@ -7,9 +7,21 @@ description: >-
   but does not publish public OpenAPI documentation; integrations are arranged
   through the partner program.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium · Requires approval
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
 position: Consuming
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maestro.png
 url: >-
   https://raw.githubusercontent.com/api-evangelist/maestro/refs/heads/main/apis.yml
 tags:
@@ -19,33 +31,16 @@ tags:
   - PMS
   - Resorts
 created: '2025-02-21'
-modified: '2026-04-28'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 common:
   - type: DomainSecurity
     url: security/maestro-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/maestro-pms
-apis:
-  - aid: maestro:maestro
-    name: Maestro PMS
-    description: >-
-      All-in-one property management software for hotels and resorts, with
-      open APIs supporting 800+ third-party integrations through the Maestro
-      partner network. Public API documentation is not available.
-    humanURL: https://maestropms.com
-    tags:
-      - Property Management
-      - Hospitality
-      - Hotels
-      - PMS
-    properties:
-      - type: Documentation
-        url: https://maestropms.com
-      - type: Integrations
-        url: https://maestropms.com/hotel-technology-pms-partners-integrations.html
-      - type: Contact
-        url: mailto:sales@maestropms.com
+  - type: ProductPage
+    url: https://maestropms.com
+apis: []
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

@@ -21,11 +21,6 @@ Maestro PMS is an all-in-one property management software solution serving indep
 
 ## APIs
 
-### Maestro PMS
-
-All-in-one property management software for hotels and resorts. Maestro promotes open APIs that support 800+ third-party integrations, but access is arranged through the partner network rather than a public developer portal.
-
-**Human URL:** [https://maestropms.com](https://maestropms.com)
 
 #### Properties
 
